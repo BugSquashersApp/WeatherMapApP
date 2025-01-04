@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherMap</title>
+    <link rel="stylesheet" href="./assets/css/news.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-brand">
+        <h1 class="brand-title">WeatherMap</h1>
+        <p class="brand-subtitle">By BugSquashers</p>
+      </div>
+      <nav class="nav">
+        <button class="mobile-menu-btn" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="./index.html" class="nav-link">Погода и Карта</a></li>
+          <li><a href="./exchange.html" class="nav-link">Курс Валют</a></li>
+          <li><a href="#" class="nav-link">Новости</a></li>
+          <li>
+            <a href="./contact.html" class="nav-link">Контакты разработчиков</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="news-container" class="news-container">
+        <!-- Weather news will be loaded here dynamically -->
+      </div>
+    </main>
+    <script type="module" src="./assets/js/news.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
